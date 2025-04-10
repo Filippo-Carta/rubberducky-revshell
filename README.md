@@ -10,7 +10,9 @@
 - Attackmodes: HID
 - Duration: 7/15 seconds
 - Persistent: No
-- Detected by Microsoft windows defender: No (antivirus will be temporarily deactivated)
+- Detected by Microsoft windows defender: No (MWD will be temporarily deactivated).
+- WARNING (It may be flagged by other antivirus programs)
+- Need Admin Privildedges.
 # Workflow:
 - Add an ExclusionPath on TEMP folder and powershell.exe (window: hidden).
 - Download the reverseshell.ps1 and execute it.
